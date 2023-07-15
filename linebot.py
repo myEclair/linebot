@@ -17,6 +17,7 @@ def omikuzi():
     elif luck <= 97: ret = "大吉"
     else: ret = "大凶"
     return ret
+# コメントアウト
 
 region = os.environ['LINE_CHANNEL_ACCESS_TOKEN']
 def lambda_handler(event, context):
